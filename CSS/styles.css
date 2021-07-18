@@ -156,13 +156,13 @@ body {
     color: var(--white-color-text);
     background-color: var(--accent-color);
 }
-.projects-title .list {
+.projects-title{
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
     color: var(--second-color);
 }
-.projects-link .list {
+.projects-link {
     font-size: 16px;
     line-height: 1.9;
     text-decoration: none;
