@@ -156,7 +156,7 @@ body {
     color: var(--white-color-text);
     background-color: var(--accent-color);
 }
-.projects-title{
+.projects-title {
     font-size: 18px;
     line-height: 2;
     font-weight: 700;
