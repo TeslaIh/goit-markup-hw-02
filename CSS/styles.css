@@ -65,6 +65,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-transform: uppercase;
 }
 .button-primary:hover,
 .button-primary:focus {
@@ -91,6 +92,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
+.team {
+    background-color: var(--background-color-uniq);
+}
 .section-title {
     color: var(--second-color);
     font-size: 36px;
@@ -104,6 +108,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     list-style: none;
+    background-color: var(--background-color-uniq);
 }
 .name {
     color: var(--second-color);
@@ -143,7 +148,13 @@ body {
 .address-foot .foot-li:focus {
     color: var(--accent-color)
 }
-.buttons {
+.buttons-site-nav .buttons:hover,
+.buttons-site-nav .buttons:focus {
+    color: var(--white-color-text);
+    background-color: var(--accent-color)
+}
+
+.buttons-site-nav .buttons {
     color: var(--second-color);
     background-color: var(--background-color-uniq);
     border: none;
@@ -152,11 +163,11 @@ body {
     line-height: 1.6;
     cursor: pointer;
 }
-.buttons:hover,
-.buttons:focus {
+.buttons-site-nav .current {
     color: var(--white-color-text);
     background-color: var(--accent-color);
 }
+
 .projects-title {
     font-size: 18px;
     line-height: 2;
