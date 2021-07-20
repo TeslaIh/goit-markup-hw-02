@@ -10,7 +10,6 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background: var(--white-color-text);
     color: var(--second-color);
@@ -28,7 +27,7 @@ body {
     /* лого */
 .logo-head {
     color: var(--accent-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     letter-spacing: 0.03em;
     font-size: 26px;
@@ -41,20 +40,25 @@ body {
 
 .list-site-nav .nav:focus,
 .list-site-nav .nav:hover {
-    color: var(--accent-color)
+    color: var(--accent-color);
+    font-weight: 500;
 }
 .list-site-nav .nav{
     color: var(--second-color);
+    font-weight: 500;
 }
 .list-site-nav .current {
     color: var(--accent-color);
+    font-weight: 500;
 }
 .contacts-list .contacts:hover,
 .contacts-list .contacts:focus {
     color: var(--accent-color);
+    font-weight: 500;
 }
 .contacts-list .contacts {
-    color: var(--primery-text-color)
+    color: var(--primery-text-color);
+    font-weight: 500;
 }
 
 .section-main {
@@ -85,6 +89,7 @@ body {
 .features {
     font-size: 14px;
     line-height: 1.71;
+    color: var(--primery-text-color);
 }
 .title-spec {
     color: var(--second-color);
@@ -110,6 +115,7 @@ body {
     letter-spacing: 0.03em;
     list-style: none;
     background-color: var(--background-color-uniq);
+    color: var(--primery-text-color);
 }
 .name {
     color: var(--second-color);
@@ -123,7 +129,7 @@ body {
 }
 .logo-foot {
     color: var(--accent-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
     letter-spacing: 0.03em;
     font-size: 26px;
@@ -141,6 +147,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 .foot-li {
     color: var(--footer-color-uniq);
