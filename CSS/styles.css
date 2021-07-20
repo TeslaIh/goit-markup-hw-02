@@ -156,6 +156,9 @@ body {
 .address-foot .foot-li:focus {
     color: var(--accent-color)
 }
+.projects-hiden{
+    text-decoration: hide;
+}
 .buttons-site-nav .buttons:hover,
 .buttons-site-nav .buttons:focus {
     color: var(--white-color-text);
